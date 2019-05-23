@@ -55,11 +55,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\E09_ListView.cs" />
      <Compile Include="Assets\test0.cs" />
      <Compile Include="Assets\test1.cs" />
      <Compile Include="Assets\test2.cs" />
      <Compile Include="Assets\test3.cs" />
      <Compile Include="Assets\test4.cs" />
+     <Compile Include="Assets\UIElementsGenerator.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/UNITYPROJECTS/STUDY/unity-UIElements-study-2019.1.2f1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
