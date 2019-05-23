@@ -10,6 +10,7 @@ public class test1 : test0
     {
         #region VisualElement
         VisualElement visualElement = new VisualElement();
+        visualElement.name = "inline-csharp-visual-element";
         visualElement.style.marginTop = 6;
         visualElement.style.marginBottom = 3;
         visualElement.style.marginLeft = 6;

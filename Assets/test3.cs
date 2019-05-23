@@ -1,18 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class test3 : MonoBehaviour
+public class test3 : test0
 {
-    // Start is called before the first frame update
-    void Start()
+    [MenuItem("UIElements examples/test3")]
+    public static void OpenWindow()
     {
-        
+        EditorWindow window = GetWindow<test3>("test1 inline C# example");
+        window.minSize = new Vector2(500, 250);
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void DrawEditor()
     {
-        
+        VisualElement visualElement = new VisualElement();
+        visualElement.name = "csharp-uss-visual-element";
     }
 }
