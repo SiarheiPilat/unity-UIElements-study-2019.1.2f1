@@ -61,7 +61,10 @@
      <Compile Include="Assets\test2.cs" />
      <Compile Include="Assets\test3.cs" />
      <Compile Include="Assets\test4.cs" />
+     <Compile Include="Assets\test5.cs" />
+     <Compile Include="Assets\TextFieldQueries.cs" />
      <Compile Include="Assets\UIElementsGenerator.cs" />
+     <Compile Include="Assets\UIElementsGenerator9000.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/UNITYPROJECTS/STUDY/unity-UIElements-study-2019.1.2f1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
